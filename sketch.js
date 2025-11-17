@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background(10); // 어두운 밤하늘 느낌
+  background(10); 
   emitter.addParticle();
   emitter.run();
 }
